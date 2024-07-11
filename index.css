@@ -1,0 +1,94 @@
+* {
+    font-family: "Libre Franklin", sans-serif; 
+}
+header {
+    font-size: 35px;
+    padding: 10px;
+    text-align: center;
+    color: white; 
+    margin-top: -15px;
+    letter-spacing: 4px;  
+    height: fit-content;    
+}
+
+section {
+    background-color: rgb(25, 73, 147);
+    width: 650px;
+    padding-top: 25px;
+    height: fit-content;
+    padding-bottom: 15px;
+    border-radius: 25px;
+    margin: auto;
+    position: relative;
+}
+#game {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 150px 150px 150px 150px;     
+}   
+
+button {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(195, 204, 187);
+    font-size: 18px;
+    border-radius: 15px;
+    }
+
+button:hover {
+    background-color:#014496 ;
+    color:white;
+    transition-duration: 0.5s;
+}
+
+.active {
+    color: white;
+    background-color: rgb(195, 204, 187);
+    box-shadow: 2.5px 2.5px #66666661;
+    transform: translatey(3px);
+    opacity: 0.4;
+    
+}
+#reset {
+    display: flex;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 60px;
+    background-color: rgb(95, 99, 92);
+    color:rgba(255, 255, 255, 0.539);
+    transition-duration: 0.1s;
+}
+#reset:hover{
+    background-color: rgb(69, 71, 68)
+}
+#reset div {
+    margin: auto;
+    
+}
+#fireworks{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+    width: 600px;
+    height: 550px;
+
+}
+.load-file {
+    position: absolute;
+    width: 250px;
+    display: flex;
+    margin-left: 375px;
+    bottom: 1px;
+    opacity: 0.6;
+}
+#load {
+    height: 30px;
+    width: 60px;
+    border-radius: 7px;
+}
+#fileInput {
+    margin-top: 8px;
+}

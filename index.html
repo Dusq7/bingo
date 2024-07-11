@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bingo</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <section>
+        <header>BINGO</header>
+
+            <div id="game"></div>                
+        
+        <button id="reset" type="reset"><div>Reset</div></button>   
+        
+        <div class="load-file">
+            <input type="file" id="fileInput" placeholder="Dodaj plik" />
+            <button id="load">Load!</button>
+        </div>
+
+        <img id="fireworks" src="fireworks.gif" style="display:none;" alt="Congratulations">        
+        <audio id="music" src="Fanfary.mp3"></audio>
+        
+    </section>
+    <script src="script.js"></script>    
+</body>
+</html>
